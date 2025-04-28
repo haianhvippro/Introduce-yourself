@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giới Thiệu Về Bản Thân Hải Anh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Video nền -->
+<video autoplay muted loop id="background-video">
+  <source src="https://videocdn.cdnpk.net/videos/5c78875d-3285-5c3c-b358-2fa2933ac790/horizontal/previews/clear/large.mp4?token=exp=1745856614~hmac=19120db7b717e852f73bb4dc8430b851e4776a1fac94c52dc0cb2cd0a9572bef" type="video/mp4">
+</video>
+
+<!-- Ẩn iframe SoundCloud -->
+<iframe id="sc-player" style="display:none;"
+  src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/trinh178/hay-ra-khoi-nguoi-do-di&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&visual=false">
+</iframe>
+
+<!-- Chỉ còn thanh Volume -->
+<div class="volume-control-container">
+  <input type="range" id="volume-slider" min="0" max="100" value="50">
+</div>
+
+<!-- Nội dung trang -->
+<div class="card">
+  <img src="https://img.freepik.com/premium-psd/videogame-product-placement-mockup_23-2151628636.jpg?w=740" alt="Logo" class="logo">
+  <h1 class="title">❤Võ Hải Anh❤</h1>
+  <p class="subtitle">nhìn cái gì?</p>
+
+  <div class="social-links">
+    <a href="https://www.facebook.com/VoHaiAnh.2104" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com/nah_.sotrax/" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+    </a>
+    <a href="https://discord.gg/QW7TRh78ub" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord">
+    </a>
+  </div>
+</div>
+
+<!-- Gọi script -->
+<script src="https://w.soundcloud.com/player/api.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
