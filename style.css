@@ -1,13 +1,19 @@
 /* Video nền */
 #background-video {
   position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -3;
-  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 150vh;
+  object-fit: contain;
+  z-index: 0;
+  pointer-events: none;
+  background-color: black; /* viền đen nếu video không khớp */
 }
+
+
+
 
 /* Particles */
 #particles-js {
